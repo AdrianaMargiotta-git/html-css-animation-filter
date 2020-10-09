@@ -1,0 +1,103 @@
+/*Esercizio 1*/
+.ex-1-square{
+  transition: background 5s;
+}
+
+.ex-1-square:hover{
+  background: red;
+}
+
+/*Esercizio 2*/
+.ex-2-square{
+  transition: width 5s;
+}
+
+.ex-2-square:active{
+  width: 100%;
+}
+
+/*Esercizio 3*/
+.ex-3-square{
+  transition: border-radius 5s;
+}
+
+.ex-3-square:hover{
+  border-radius: 100%;
+}
+
+/*Esercizio 4*/
+.ex-4-square{
+  transition: opacity 5s;
+}
+
+.ex-4-square:hover{
+  opacity: 0;
+}
+
+/*Esercizio 5*/
+.ex-5-square{
+  transition: all 4s;
+}
+
+.ex-5-square:hover{
+  transform: scale(2);
+}
+
+.ex-5-square:active{
+  transform: scale(0.5);
+}
+
+/*Esercizio 6*/
+.ex-6-img:hover{
+  filter: grayscale(1);
+}
+
+/*Esercizio 7*/
+.ex-7-img{
+  transition: all 4s;
+}
+
+.ex-7-img:hover{
+  filter: grayscale(1) opacity(0.2);
+}
+
+/*Esercizio 8*/
+.ex-8-img{
+  transition: all 4s;
+}
+
+.ex-8-img:hover{
+  filter: saturate(2) grayscale(1);
+  border-radius: 10%;
+}
+
+/*Esercizio 9*/
+.ex-9-img{
+  transition: all 4s;
+}
+
+.ex-9-img:hover{
+  filter: sepia(0.5) grayscale(1);
+  border-radius: 10%;
+  transform: scale(1.50);
+}
+
+/*Esercizio 10*/
+.ex-10-icon{
+  animation-name: girare;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  /*animation: girare 3s linear infinite;*/
+}
+
+@keyframes girare {
+  0% {
+    transform: rotate(1turn);
+  }
+}
+
+/*Esercizio 11*/
+.ex-11-icon{
+
+}
